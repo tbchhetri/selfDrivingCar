@@ -15,7 +15,6 @@
 [NVIDIA_Model.ipynb](/NVIDIA_Model.ipynb)
 
 ![](/images/cnn-architecture.png)
-
 [source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fdeep-learning-self-driving-cars%2F&psig=AOvVaw0MfS5_e0LZlX-ZPg8U-KUy&ust=1617740053200000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPitwLz15-8CFQAAAAAdAAAAABAD)
 
 - This ML algorithm is written following the NVIDIA's model for CNN
