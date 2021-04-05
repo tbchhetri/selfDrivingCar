@@ -10,8 +10,7 @@
 
 ## Files Description
 
-[ModelApplication.py](/ModelApplication.py) 
-This contains the implementaion of the Machine Learning Algorithm for steering. It also contains the communation with the GPIO pins of the Raspberry Pi 4 to control the wiper motor (steering motor) of our car. 
+**[ModelApplication.py](/ModelApplication.py)** contains the implementaion of the Machine Learning Algorithm for steering. It also contains the communation with the GPIO pins of the Raspberry Pi 4 to control the wiper motor (steering motor) of our car. 
 
 **[NVIDIA_Model.ipynb](/NVIDIA_Model.ipynb)**
 
@@ -21,17 +20,12 @@ This contains the implementaion of the Machine Learning Algorithm for steering. 
 - This ML algorithm is written following the NVIDIA's model for CNN
 - This code is also inspired from [this course](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/) which has a great introduction to Machine Learning and also explains different ML types and algorithms 
 
-[PID.slx](/PID.slx)
-This contains the simulink model of the car
+**[PID.slx](/PID.slx)** contains the simulink model of the car
 
-[lanes.py](/lanes.py)
-This is a basic lane detection algorithm using Open CV and basic image processing
+**[lanes.py](/lanes.py)** is a basic lane detection algorithm using Open CV and basic image processing
 
-[model.h5](/model.h5)
-This is the output file of the ML model. This file contains all the weights and biases of required to steer the car.
+**[model.h5](/model.h5)** is the output file of the ML model. This file contains all the weights and biases of required to steer the car.
 
-[images](/images)
-This contains the images used for this file.
+**[images](/images)** contains the images used for this file.
 
-[motorControl](/motorControl)
-This contains the sample code for controlling the Lidar sensor and the motor driver.
+**[motorControl](/motorControl)** contains the sample code for controlling the Lidar sensor and the motor driver.
