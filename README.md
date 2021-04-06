@@ -24,9 +24,9 @@
 
 **[DeepPiCar: ](https://towardsdatascience.com/deeppicar-part-1-102e03c83f2c)** This article was used to understant different implemetation of the ML model and new tecniques to Lane Detections.
 
-**[Intro to TinyML Part1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics: ](https://www.youtube.com/watch?v=BzzqYNYOcWc)** This video was used to understand the alternatives to using Raspberry Pi
+**[Intro to TinyML Part1: Training a Neural Network for Arduino in TensorFlow Digi-Key Electronics: ](https://www.youtube.com/watch?v=BzzqYNYOcWc)** This video was used to understand the alternatives to using Raspberry Pi
 
-**[Self Driving AI in 100 lines of code | Raspberry Pi: ](AI in 100 lines of code | Raspberry Pi)** This video was used to get ideas about other people's implemetation of the ML model and use of Blynk app to control the car!
+**[Self Driving AI in 100 lines of code Raspberry Pi: ](AI in 100 lines of code | Raspberry Pi)** This video was used to get ideas about other people's implemetation of the ML model and use of Blynk app to control the car!
 
 **[Lane Detection and Tracking with MATLAB: ](https://www.youtube.com/watch?v=SFqAAseL_1g)** This video was used to evaluate the alternatives of using MATLAB for Lane Detection.
 
@@ -42,7 +42,7 @@
 
 **[Robotic Car, Closed Loop Control Example: ](https://www.youtube.com/watch?v=LfydfvHyikM)** This video was used to understand the PID contolls on simple car.
 
-**[PID Balance+Ball | full explanation & tuning: ](https://www.youtube.com/watch?v=JFTJ2SS4xyA)** This video was used to understand implementation of PID in Ball Balancing System.
+**[PID Balance+Ball full explanation & tuning: ](https://www.youtube.com/watch?v=JFTJ2SS4xyA)** This video was used to understand implementation of PID in Ball Balancing System.
 
 **[PID brushless motor control tutorial: ](https://www.youtube.com/watch?v=AN3yxIBAxTA)** This video was used to understand implementation of PID in a Quadcopter.
 
