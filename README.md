@@ -8,7 +8,7 @@
 - Equipped Raspberry Pi as the main processing unit and used it to communicate with Pi camera and motors
 - Used Lidar to accurately detect nearby objects and take actions accordingly
 
-## Recorces used
+## Resources used
 
 **[Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** This video series was used to understand Neural Networks.
 
