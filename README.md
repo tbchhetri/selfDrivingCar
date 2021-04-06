@@ -26,7 +26,7 @@
 
 **[Intro to TinyML Part1: Training a Neural Network for Arduino in TensorFlow Digi-Key Electronics: ](https://www.youtube.com/watch?v=BzzqYNYOcWc)** This video was used to understand the alternatives to using Raspberry Pi
 
-**[Self Driving AI in 100 lines of code Raspberry Pi: ](AI in 100 lines of code | Raspberry Pi)** This video was used to get ideas about other people's implemetation of the ML model and use of Blynk app to control the car!
+**[Self Driving AI in 100 lines of code Raspberry Pi: ](https://www.youtube.com/watch?v=dS4-qgUByy4&t=3s)** This video was used to get ideas about other people's implemetation of the ML model and use of Blynk app to control the car!
 
 **[Lane Detection and Tracking with MATLAB: ](https://www.youtube.com/watch?v=SFqAAseL_1g)** This video was used to evaluate the alternatives of using MATLAB for Lane Detection.
 
