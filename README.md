@@ -8,6 +8,28 @@
 - Equipped Raspberry Pi as the main processing unit and used it to communicate with Pi camera and motors
 - Used Lidar to accurately detect nearby objects and take actions accordingly
 
+## Files Description
+
+**[ModelApplication.py](/ModelApplication.py)** contains the implementaion of the Machine Learning Algorithm for steering. It also contains the communation with the GPIO pins of the Raspberry Pi 4 to control the wiper motor (steering motor) of our car. 
+
+**[NVIDIA_Model.ipynb](/NVIDIA_Model.ipynb)**
+
+![](/images/cnn-architecture.png)
+[source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fdeep-learning-self-driving-cars%2F&psig=AOvVaw0MfS5_e0LZlX-ZPg8U-KUy&ust=1617740053200000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPitwLz15-8CFQAAAAAdAAAAABAD)
+
+- This ML algorithm is written following the NVIDIA's model for CNN
+- This code is also inspired from [this course](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/) which has a great introduction to Machine Learning and also explains different ML types and algorithms 
+
+**[PID.slx](/PID.slx)** contains the simulink model of the car
+
+**[lanes.py](/lanes.py)** is a basic lane detection algorithm using Open CV and basic image processing
+
+**[model.h5](/model.h5)** is the output file of the ML model. This file contains all the weights and biases of required to steer the car.
+
+**[images](/images)** contains the images used for this file.
+
+**[motorControl](/motorControl)** contains the sample code for controlling the Lidar sensor and the motor driver.
+
 ## Resources used
 
 **[Neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** This video series was used to understand Neural Networks.
@@ -67,25 +89,3 @@
 **[Remote Access with SSH and Remote Desktop - Raspberry Pi and Python tutorials p.3: ](https://www.youtube.com/watch?v=IDqQIDL3LKg)** This video was used to set up SSH to control the raspberry pi as an alternative to VNC viwer.
 
 **[Deep Neural Network Hardware Accelerator on FPGA Tutorial: ](https://www.youtube.com/watch?v=mA-b9qX1ySg)** This video was used to understand the implemetation of DNN on a FPGA
-
-## Files Description
-
-**[ModelApplication.py](/ModelApplication.py)** contains the implementaion of the Machine Learning Algorithm for steering. It also contains the communation with the GPIO pins of the Raspberry Pi 4 to control the wiper motor (steering motor) of our car. 
-
-**[NVIDIA_Model.ipynb](/NVIDIA_Model.ipynb)**
-
-![](/images/cnn-architecture.png)
-[source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.nvidia.com%2Fblog%2Fdeep-learning-self-driving-cars%2F&psig=AOvVaw0MfS5_e0LZlX-ZPg8U-KUy&ust=1617740053200000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPitwLz15-8CFQAAAAAdAAAAABAD)
-
-- This ML algorithm is written following the NVIDIA's model for CNN
-- This code is also inspired from [this course](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/) which has a great introduction to Machine Learning and also explains different ML types and algorithms 
-
-**[PID.slx](/PID.slx)** contains the simulink model of the car
-
-**[lanes.py](/lanes.py)** is a basic lane detection algorithm using Open CV and basic image processing
-
-**[model.h5](/model.h5)** is the output file of the ML model. This file contains all the weights and biases of required to steer the car.
-
-**[images](/images)** contains the images used for this file.
-
-**[motorControl](/motorControl)** contains the sample code for controlling the Lidar sensor and the motor driver.
